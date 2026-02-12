@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sabor Chilango | Al Mero Mero</title>
+  <meta name="description" content="Comida chilanga mexicana. Tacos, tortas y antojos al mero mero estilo CDMX." />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#inicio" aria-label="Sabor Chilango">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div class="brand-text">
+          <span class="brand-title">Sabor <em>Chilango</em></span>
+          <small>Al Mero Mero</small>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Secciones">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#promos">Promos</a>
+        <a href="#menu">Menú</a>
+        <a href="#galeria">Galería</a>
+        <a href="#reseñas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn" href="#menu">Ver menú</a>
+        <a class="btn btn-primary" href="#contacto">Ubicación</a>
+        <button class="burger" id="burger" aria-label="Abrir menú">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO / PARALLAX -->
+  <section class="hero parallax" id="inicio" aria-label="Hero principal">
+    <div class="parallax-layer layer-1" data-speed="0.25" aria-hidden="true"></div>
+    <div class="parallax-layer layer-2" data-speed="0.45" aria-hidden="true"></div>
+    <div class="parallax-layer layer-3" data-speed="0.65" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="kicker"><i></i> comida chilanga mexicana</span>
+        <h1>Antojos de CDMX, <span class="accent">bien servidos</span> y con sazón.</h1>
+        <p>
+          Tacos, tortas, quesadillas y clásicos callejeros, con ingredientes frescos y el sabor
+          que te hace decir: <b>“esto sí es chilango”</b>.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">🔥 Ver especialidades</a>
+          <a class="btn" href="#contacto">📍 Cómo llegar</a>
+          <a class="btn" id="btnDirectionsTop" href="#" target="_blank" rel="noopener">🧭 Abrir Maps</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <b>Hecho al momento</b>
+            <span>cocina rápida y rica</span>
+          </div>
+          <div class="stat">
+            <b>Salsa nivel CDMX</b>
+            <span>suave / picosa / mortal</span>
+          </div>
+          <div class="stat">
+            <b>Delivery & Pick-up</b>
+            <span>pide por WhatsApp</span>
+          </div>
+          <div class="stat">
+            <b>Ambiente barrio</b>
+            <span>pero con estilo</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <span class="pill">🌮 Recomendado hoy</span>
+        <h2>Torta de chilaquiles</h2>
+        <p>
+          Crujiente, jugosa y con el toque exacto de salsa. Pídela con pollo, bistec o arrachera.
+        </p>
+        <div class="pill-row">
+          <span class="pill red">⏱ 10–15 min</span>
+          <span class="pill">🥑 extra aguacate</span>
+          <span class="pill red">🌶 nivel salsa</span>
+        </div>
+        <div class="hero-card-cta">
+          <a class="btn btn-primary w-full center" href="#promos">Ver promos del día</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="nosotros">
+    <div class="wrap">
+      <span class="kicker"><i></i> nosotros</span>
+      <h2>De la calle al plato, sin perder la esencia.</h2>
+      <p>Una cocina chilanga con vibe moderno: rápido, rico, y con sazón que abraza.</p>
+
+      <div class="grid mt-18">
+        <article class="card span-6">
+          <h3>✨ Sabor auténtico</h3>
+          <p>Recetas inspiradas en antojos clásicos: comal, plancha y salsas de respeto.</p>
+          <div class="info-line"><span class="dot"></span><div><b>Ingredientes frescos</b><br><span class="muted">Todos los días.</span></div></div>
+          <div class="info-line"><span class="dot"></span><div><b>Porciones generosas</b><br><span class="muted">Como debe ser.</span></div></div>
+        </article>
+
+        <article class="card span-6">
+          <h3>🏁 Rápido, pero bien hecho</h3>
+          <p>Servicio ágil para que comas sin esperar siglos, pero sin sacrificar calidad.</p>
+          <div class="info-line"><span class="dot"></span><div><b>Pick-up</b><br><span class="muted">Pide y pasa.</span></div></div>
+          <div class="info-line"><span class="dot"></span><div><b>Delivery</b><br><span class="muted">Pregunta cobertura.</span></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOS (CAROUSEL) -->
+  <section class="promos parallax" id="promos">
+    <div class="parallax-layer promo-bg" data-speed="0.18" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <span class="kicker"><i></i> promos</span>
+      <h2>Promos del día (pa’ que caigas feliz)</h2>
+      <p>Este carrusel es touch-friendly y se mueve solo. Puedes cambiar los textos e imágenes.</p>
+
+      <div class="carousel" aria-label="Carrusel de promociones">
+        <button class="carousel-btn prev" aria-label="Anterior" data-carousel="prev">‹</button>
+        <button class="carousel-btn next" aria-label="Siguiente" data-carousel="next">›</button>
+
+        <div class="carousel-track" data-carousel="track">
+          <article class="promo">
+            <div class="promo-media" style="background-image:url('https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=1400&q=80')"></div>
+            <div class="promo-body">
+              <span class="pill">🔥 2x1</span>
+              <h3>Tacos al pastor</h3>
+              <p>De 5 a 7 pm. (aplica en pastor clásico)</p>
+              <a class="btn btn-primary" id="btnPromo1" href="#" target="_blank" rel="noopener">Pedir por Whats</a>
+            </div>
+          </article>
+
+          <article class="promo">
+            <div class="promo-media" style="background-image:url('https://images.unsplash.com/photo-1604909052878-2ea3f13b13a9?auto=format&fit=crop&w=1400&q=80')"></div>
+            <div class="promo-body">
+              <span class="pill red">🌶</span>
+              <h3>Torta chilanga</h3>
+              <p>Incluye agua del día. (hasta agotar)</p>
+              <a class="btn btn-primary" id="btnPromo2" href="#" target="_blank" rel="noopener">Pedir por Whats</a>
+            </div>
+          </article>
+
+          <article class="promo">
+            <div class="promo-media" style="background-image:url('https://images.unsplash.com/photo-1601924582975-7e0c390b3f2a?auto=format&fit=crop&w=1400&q=80')"></div>
+            <div class="promo-body">
+              <span class="pill">🥤 Combo</span>
+              <h3>Quesadilla + bebida</h3>
+              <p>Arma tu combo en 2 minutos.</p>
+              <a class="btn btn-primary" id="btnPromo3" href="#" target="_blank" rel="noopener">Pedir por Whats</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-dots" data-carousel="dots" aria-label="Indicadores"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU (TABS) -->
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <span class="kicker"><i></i> menú</span>
+      <h2>Elige tu antojo</h2>
+      <p>Tabs por categorías. Cambia precios y items.</p>
+
+      <div class="tabs" role="tablist" aria-label="Categorías del menú">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="tacos">🌮 Tacos</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="tortas">🥪 Tortas</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="quesadillas">🧀 Quesadillas</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="bebidas">🥤 Bebidas</button>
+      </div>
+
+      <div class="tab-panels mt-18">
+        <div class="panel is-active" role="tabpanel" data-panel="tacos">
+          <div class="grid">
+            <article class="card span-4">
+              <h3>🌮 Tacos</h3>
+              <div class="item"><div><strong>Suadero</strong><span class="muted">cebolla & cilantro</span></div><div class="price">$35</div></div>
+              <div class="item"><div><strong>Pastor</strong><span class="muted">piña opcional</span></div><div class="price">$32</div></div>
+              <div class="item"><div><strong>Bistec</strong><span class="muted">bien doradito</span></div><div class="price">$38</div></div>
+            </article>
+
+            <article class="card span-4">
+              <h3>🌯 Especiales</h3>
+              <div class="item"><div><strong>Campechano</strong><span class="muted">mix de carnes</span></div><div class="price">$40</div></div>
+              <div class="item"><div><strong>Gringa</strong><span class="muted">queso + pastor</span></div><div class="price">$55</div></div>
+              <div class="item"><div><strong>Volcán</strong><span class="muted">tostada con carne</span></div><div class="price">$48</div></div>
+            </article>
+
+            <article class="card span-4">
+              <h3>🌶 Salsas</h3>
+              <p class="muted">Elige tu nivel:</p>
+              <div class="pill-row">
+                <span class="pill">Suave</span>
+                <span class="pill red">Picosa</span>
+                <span class="pill red">Mortal</span>
+              </div>
+              <div class="divider"></div>
+              <a class="btn btn-primary w-full center" id="btnOrderMenu" href="#" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" data-panel="tortas">
+          <div class="grid">
+            <article class="card span-6">
+              <h3>🥪 Tortas</h3>
+              <div class="item"><div><strong>Torta de Chilaquiles</strong><span class="muted">roja o verde</span></div><div class="price">$95</div></div>
+              <div class="item"><div><strong>Milanesa</strong><span class="muted">con aguacate</span></div><div class="price">$110</div></div>
+              <div class="item"><div><strong>Jamón + Queso</strong><span class="muted">clásica</span></div><div class="price">$75</div></div>
+            </article>
+            <article class="card span-6">
+              <h3>🔥 Tip chilango</h3>
+              <p>Pídela con todo: frijol, mayo, jitomate, cebolla y tu salsa favorita.</p>
+              <a class="btn btn-primary w-full center" id="btnOrderTortas" href="#" target="_blank" rel="noopener">Ordenar torta</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" data-panel="quesadillas">
+          <div class="grid">
+            <article class="card span-6">
+              <h3>🧀 Quesadillas</h3>
+              <div class="item"><div><strong>Huitlacoche</strong><span class="muted">queso a elección</span></div><div class="price">$58</div></div>
+              <div class="item"><div><strong>Flor de calabaza</strong><span class="muted">con epazote</span></div><div class="price">$55</div></div>
+              <div class="item"><div><strong>Chicharrón prensado</strong><span class="muted">nivel barrio</span></div><div class="price">$62</div></div>
+            </article>
+            <article class="card span-6">
+              <h3>✅ Recomendación</h3>
+              <p>Una de flor + una de huitlacoche y ya estás del otro lado.</p>
+              <a class="btn btn-primary w-full center" id="btnOrderQues" href="#" target="_blank" rel="noopener">Ordenar quesadillas</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" data-panel="bebidas">
+          <div class="grid">
+            <article class="card span-4">
+              <h3>🥤 Bebidas</h3>
+              <div class="item"><div><strong>Agua del día</strong><span class="muted">500 ml</span></div><div class="price">$28</div></div>
+              <div class="item"><div><strong>Refresco</strong><span class="muted">355 ml</span></div><div class="price">$30</div></div>
+              <div class="item"><div><strong>Café de olla</strong><span class="muted">calientito</span></div><div class="price">$35</div></div>
+            </article>
+            <article class="card span-8">
+              <h3>🍻 Extra</h3>
+              <p class="muted">Si manejas, no tomes. (Aquí puedes meter tu carta real.)</p>
+              <a class="btn btn-primary" id="btnOrderDrinks" href="#" target="_blank" rel="noopener">Pedir bebidas</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery parallax" id="galeria">
+    <div class="parallax-layer gallery-bg" data-speed="0.14" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="kicker"><i></i> galería</span>
+      <h2>Se antoja nomás de ver</h2>
+      <p>Imágenes demo (cámbialas por tus fotos).</p>
+
+      <div class="grid mt-18">
+        <div class="thumb span-3"><img alt="Tacos" src="https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=1200&q=80"></div>
+        <div class="thumb span-3"><img alt="Torta" src="https://images.unsplash.com/photo-1604909052878-2ea3f13b13a9?auto=format&fit=crop&w=1200&q=80"></div>
+        <div class="thumb span-3"><img alt="Salsas" src="https://images.unsplash.com/photo-1601924582975-7e0c390b3f2a?auto=format&fit=crop&w=1200&q=80"></div>
+        <div class="thumb span-3"><img alt="Quesadillas" src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reseñas">
+    <div class="wrap">
+      <span class="kicker"><i></i> reseñas</span>
+      <h2>La banda manda</h2>
+      <p>Testimonios demo. Puedes conectarlos a Google Reviews después.</p>
+
+      <div class="grid mt-18">
+        <article class="card span-4">
+          <span class="pill">⭐ 5.0</span>
+          <h3>“Salsa verde perfecta”</h3>
+          <p>El pastor está top y la salsa pica sabroso. Volvemos seguro.</p>
+          <p class="author">— Fer M.</p>
+        </article>
+        <article class="card span-4">
+          <span class="pill red">⭐ 4.9</span>
+          <h3>“Torta de chilaquiles legendaria”</h3>
+          <p>Se siente CDMX en cada mordida. Buen precio y porción.</p>
+          <p class="author">— Alex R.</p>
+        </article>
+        <article class="card span-4">
+          <span class="pill">⭐ 5.0</span>
+          <h3>“Rápido y delicioso”</h3>
+          <p>Pedí pick-up por WhatsApp y estaba listo al llegar. 10/10.</p>
+          <p class="author">— Carla V.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contacto">
+    <div class="wrap">
+      <span class="kicker"><i></i> contacto</span>
+      <h2>Caile o mándanos Whats</h2>
+      <p>Mapa embebido + botón “Cómo llegar” a Google Maps.</p>
+
+      <div class="grid mt-18">
+        <div class="card span-6">
+          <h3>📌 Información</h3>
+
+          <div class="info-line">
+            <span class="dot"></span>
+            <div>
+              <b>Dirección</b><br>
+              <span class="muted" id="addrText">Av. Ejemplo 123, Centro, Tu Ciudad</span>
+            </div>
+          </div>
+
+          <div class="info-line">
+            <span class="dot"></span>
+            <div>
+              <b>Horario</b><br>
+              <span class="muted">Lun–Dom · 1:00 pm – 11:00 pm</span>
+            </div>
+          </div>
+
+          <div class="info-line">
+            <span class="dot"></span>
+            <div>
+              <b>Teléfono / WhatsApp</b><br>
+              <span class="muted">+52 55 0000 0000</span>
+            </div>
+          </div>
+
+          <div class="actions mt-12">
+            <a class="btn btn-primary" id="ctaWhats" href="#" target="_blank" rel="noopener">💬 Pedir por WhatsApp</a>
+            <a class="btn" id="ctaDirections" href="#" target="_blank" rel="noopener">🧭 Cómo llegar</a>
+          </div>
+
+          <p class="tiny mt-12">Tip: si estás en móvil, “Cómo llegar” abre la app de Google Maps.</p>
+        </div>
+
+        <div class="card map span-6" aria-label="Mapa de Google Maps">
+          <!-- REEMPLAZA ESTE IFRAME por el de tu ubicación:
+               Google Maps > Compartir > Insertar un mapa > Copiar HTML -->
+          <iframe
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.551514369785!2d-99.1332095!3d19.4326077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3f8a2a0b3b%3A0x4b9a5b9d7c2b8c3f!2sZ%C3%B3calo%20CDMX!5e0!3m2!1ses-419!2smx!4v1700000000000">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating -->
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+    <span class="wa-icon" aria-hidden="true">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M19.11 17.64c-.27-.13-1.58-.78-1.82-.87-.24-.09-.42-.13-.6.13-.18.27-.69.87-.84 1.05-.15.18-.31.2-.58.07-.27-.13-1.12-.41-2.13-1.31-.79-.7-1.32-1.57-1.48-1.84-.15-.27-.02-.42.11-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.33-.02-.47-.07-.13-.6-1.45-.82-1.99-.22-.53-.44-.46-.6-.46-.16 0-.33 0-.51 0s-.47.07-.71.33c-.24.27-.93.91-.93 2.22s.95 2.57 1.08 2.75c.13.18 1.87 2.85 4.54 4 2.67 1.15 2.67.77 3.15.72.48-.04 1.58-.64 1.8-1.26.22-.62.22-1.15.16-1.26-.07-.11-.24-.18-.51-.31z"/>
+        <path d="M26.67 5.33A14.6 14.6 0 0 0 16.03 1C8.06 1 1.58 7.48 1.58 15.45c0 2.55.66 5.04 1.92 7.24L1 31l8.48-2.23a14.43 14.43 0 0 0 6.55 1.58h.01c7.97 0 14.45-6.48 14.45-14.45 0-3.86-1.5-7.49-4.32-10.57zM16.04 27.9h-.01a12 12 0 0 1-6.13-1.68l-.44-.26-5.03 1.32 1.34-4.9-.29-.5a12 12 0 1 1 10.56 6.02z"/>
+      </svg>
+    </span>
+    <span class="wa-text">
+      <span>Disponible ahora</span>
+      <b>Ordenar por Whats</b>
+    </span>
+  </a>
+
+  <footer>
+    <div class="footer-inner">
+      <small>© <span id="year"></span> Sabor Chilango · Al Mero Mero</small>
+      <small class="footer-badges">
+        <span class="badge green"></span>
+        <span class="badge white"></span>
+        <span class="badge red"></span>
+        <span>Hecho con sazón 🇲🇽</span>
+      </small>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js" defer></script>
+</body>
+</html>
